@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: yieldsense:latest
+    container_name: yieldsense-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_PATH=/app/data/yieldsense.duckdb
+      - MODEL_DIR=/app/models/
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - RECOVERY_MAX_OOB_SENSORS=${RECOVERY_MAX_OOB_SENSORS:-3}
+      - RECOVERY_MARGIN_STD_FACTOR=${RECOVERY_MARGIN_STD_FACTOR:-0.5}
+    volumes:
+      - ./reports:/app/reports
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-10-27T18:22:30.303766",
+  "train_samples": 2340,
+  "test_samples": 314,
+  "test_fail_samples": 21,
+  "test_pass_samples": 293,
+  "models": {
+    "logistic_regression_baseline": {
+      "roc_auc": 0.6155,
+      "pr_auc": 0.1182,
+      "f1_score": 0.1017,
+      "precision": 0.0789,
+      "recall": 0.1429
+    },
+    "xgboost_tuned": {
+      "roc_auc": 0.6442,
+      "pr_auc": 0.1574,
+      "f1_score": 0.08,
+      "precision": 0.25,
+      "recall": 0.0476
+    }
+  },
+  "best_hyperparameters": {
+    "n_estimators": 100,
+    "max_depth": 6,
+    "learning_rate": 0.12252906300902104,
+    "subsample": 0.6962149943774275,
+    "colsample_bytree": 0.6608592251391607,
+    "scale_pos_weight": 1.8721804911993825,
+    "random_state": 42,
+    "eval_metric": "logloss",
+    "n_jobs": -1
+  }
+}

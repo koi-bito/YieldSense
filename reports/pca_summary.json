@@ -1,0 +1,293 @@
+{
+  "total_sensors": 442,
+  "target_variance_threshold": 0.95,
+  "n_components_retained": 161,
+  "dimension_reduction_ratio": 0.6357,
+  "top_5_explained_variance_ratio": [
+    0.0578,
+    0.03866,
+    0.03014,
+    0.02696,
+    0.02213
+  ],
+  "top_5_cumulative_variance": [
+    0.0578,
+    0.09646,
+    0.1266,
+    0.15355,
+    0.17568
+  ],
+  "total_explained_variance": 0.95097,
+  "top_component_loadings": {
+    "PC_01": [
+      {
+        "sensor": "sensor_197",
+        "loading": 0.18864,
+        "abs_loading": 0.18864
+      },
+      {
+        "sensor": "sensor_480",
+        "loading": 0.18794,
+        "abs_loading": 0.18794
+      },
+      {
+        "sensor": "sensor_208",
+        "loading": 0.18712,
+        "abs_loading": 0.18712
+      },
+      {
+        "sensor": "sensor_200",
+        "loading": 0.18269,
+        "abs_loading": 0.18269
+      },
+      {
+        "sensor": "sensor_344",
+        "loading": 0.18,
+        "abs_loading": 0.18
+      }
+    ],
+    "PC_02": [
+      {
+        "sensor": "sensor_300",
+        "loading": 0.20468,
+        "abs_loading": 0.20468
+      },
+      {
+        "sensor": "sensor_165",
+        "loading": 0.2044,
+        "abs_loading": 0.2044
+      },
+      {
+        "sensor": "sensor_435",
+        "loading": 0.20311,
+        "abs_loading": 0.20311
+      },
+      {
+        "sensor": "sensor_437",
+        "loading": 0.20311,
+        "abs_loading": 0.20311
+      },
+      {
+        "sensor": "sensor_436",
+        "loading": 0.20187,
+        "abs_loading": 0.20187
+      }
+    ],
+    "PC_03": [
+      {
+        "sensor": "sensor_421",
+        "loading": 0.2074,
+        "abs_loading": 0.2074
+      },
+      {
+        "sensor": "sensor_283",
+        "loading": 0.20644,
+        "abs_loading": 0.20644
+      },
+      {
+        "sensor": "sensor_148",
+        "loading": 0.20608,
+        "abs_loading": 0.20608
+      },
+      {
+        "sensor": "sensor_284",
+        "loading": 0.20241,
+        "abs_loading": 0.20241
+      },
+      {
+        "sensor": "sensor_153",
+        "loading": 0.20233,
+        "abs_loading": 0.20233
+      }
+    ],
+    "PC_04": [
+      {
+        "sensor": "sensor_428",
+        "loading": 0.18396,
+        "abs_loading": 0.18396
+      },
+      {
+        "sensor": "sensor_422",
+        "loading": 0.18354,
+        "abs_loading": 0.18354
+      },
+      {
+        "sensor": "sensor_149",
+        "loading": 0.1826,
+        "abs_loading": 0.1826
+      },
+      {
+        "sensor": "sensor_284",
+        "loading": 0.18236,
+        "abs_loading": 0.18236
+      },
+      {
+        "sensor": "sensor_155",
+        "loading": 0.1823,
+        "abs_loading": 0.1823
+      }
+    ],
+    "PC_05": [
+      {
+        "sensor": "sensor_458",
+        "loading": 0.18495,
+        "abs_loading": 0.18495
+      },
+      {
+        "sensor": "sensor_182",
+        "loading": 0.18495,
+        "abs_loading": 0.18495
+      },
+      {
+        "sensor": "sensor_454",
+        "loading": 0.18443,
+        "abs_loading": 0.18443
+      },
+      {
+        "sensor": "sensor_322",
+        "loading": 0.18205,
+        "abs_loading": 0.18205
+      },
+      {
+        "sensor": "sensor_067",
+        "loading": 0.18086,
+        "abs_loading": 0.18086
+      }
+    ],
+    "PC_06": [
+      {
+        "sensor": "sensor_460",
+        "loading": 0.23067,
+        "abs_loading": 0.23067
+      },
+      {
+        "sensor": "sensor_324",
+        "loading": 0.23011,
+        "abs_loading": 0.23011
+      },
+      {
+        "sensor": "sensor_188",
+        "loading": 0.22677,
+        "abs_loading": 0.22677
+      },
+      {
+        "sensor": "sensor_186",
+        "loading": 0.21094,
+        "abs_loading": 0.21094
+      },
+      {
+        "sensor": "sensor_322",
+        "loading": 0.21082,
+        "abs_loading": 0.21082
+      }
+    ],
+    "PC_07": [
+      {
+        "sensor": "sensor_444",
+        "loading": 0.17855,
+        "abs_loading": 0.17855
+      },
+      {
+        "sensor": "sensor_173",
+        "loading": 0.17525,
+        "abs_loading": 0.17525
+      },
+      {
+        "sensor": "sensor_175",
+        "loading": 0.17524,
+        "abs_loading": 0.17524
+      },
+      {
+        "sensor": "sensor_210",
+        "loading": 0.17488,
+        "abs_loading": 0.17488
+      },
+      {
+        "sensor": "sensor_479",
+        "loading": 0.17488,
+        "abs_loading": 0.17488
+      }
+    ],
+    "PC_08": [
+      {
+        "sensor": "sensor_444",
+        "loading": 0.23286,
+        "abs_loading": 0.23286
+      },
+      {
+        "sensor": "sensor_310",
+        "loading": 0.23077,
+        "abs_loading": 0.23077
+      },
+      {
+        "sensor": "sensor_308",
+        "loading": 0.23077,
+        "abs_loading": 0.23077
+      },
+      {
+        "sensor": "sensor_173",
+        "loading": 0.22983,
+        "abs_loading": 0.22983
+      },
+      {
+        "sensor": "sensor_175",
+        "loading": 0.22982,
+        "abs_loading": 0.22982
+      }
+    ],
+    "PC_09": [
+      {
+        "sensor": "sensor_407",
+        "loading": 0.1999,
+        "abs_loading": 0.1999
+      },
+      {
+        "sensor": "sensor_406",
+        "loading": -0.19305,
+        "abs_loading": 0.19305
+      },
+      {
+        "sensor": "sensor_269",
+        "loading": 0.19203,
+        "abs_loading": 0.19203
+      },
+      {
+        "sensor": "sensor_541",
+        "loading": 0.19114,
+        "abs_loading": 0.19114
+      },
+      {
+        "sensor": "sensor_268",
+        "loading": -0.19024,
+        "abs_loading": 0.19024
+      }
+    ],
+    "PC_10": [
+      {
+        "sensor": "sensor_278",
+        "loading": 0.24317,
+        "abs_loading": 0.24317
+      },
+      {
+        "sensor": "sensor_143",
+        "loading": 0.24132,
+        "abs_loading": 0.24132
+      },
+      {
+        "sensor": "sensor_141",
+        "loading": 0.24012,
+        "abs_loading": 0.24012
+      },
+      {
+        "sensor": "sensor_276",
+        "loading": 0.24011,
+        "abs_loading": 0.24011
+      },
+      {
+        "sensor": "sensor_005",
+        "loading": 0.23976,
+        "abs_loading": 0.23976
+      }
+    ]
+  }
+}

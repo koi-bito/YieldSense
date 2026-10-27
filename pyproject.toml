@@ -1,0 +1,21 @@
+[project]
+name = "yieldsense"
+version = "0.1.0"
+description = "AI-Enabled NAND Test Yield & Recovery Analytics Pipeline"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]
